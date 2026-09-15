@@ -39,7 +39,7 @@ nav a:hover {
 /* Dark Theme */ 
 body[data-theme="dark"] {
   background: #0d1117;
-  color: #f0f6fc;
+  color: #ffffff;
 }
 
 body[data-theme="dark"] header {
@@ -49,3 +49,15 @@ body[data-theme="dark"] header {
 body[data-theme="dark"] nav a {
   color: #f0f6fc;
 }
+
+body[data-theme="dark"] nav a:hover {
+  color: #58a6ff;
+}
+
+body[data-theme="dark"] button {
+  background: #f0f6fc;
+  color: #0d1117;
+  border: 1px solid #8c959f;
+}
+
+
