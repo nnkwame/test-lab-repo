@@ -35,3 +35,17 @@ nav a {
 nav a:hover {
   color: #0969da;
 }
+
+/* Dark Theme */ 
+body[data-theme="dark"] {
+  background: #0d1117;
+  color: #f0f6fc;
+}
+
+body[data-theme="dark"] header {
+  background: #161b22;
+}
+
+body[data-theme="dark"] nav a {
+  color: #f0f6fc;
+}
